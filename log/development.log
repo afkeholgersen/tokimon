@@ -1540,3 +1540,1118 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 16ms (Views: 9.8ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2016-10-09 22:15:15 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.0.0.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.0.0.1/lib/rails/templates/rails/welcome/index.html.erb (6.6ms)
+Completed 200 OK in 57ms (Views: 27.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-09 22:19:45 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.0.0.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.0.0.1/lib/rails/templates/rails/welcome/index.html.erb (5.1ms)
+Completed 200 OK in 27ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tokimons" for 127.0.0.1 at 2016-10-09 22:19:48 -0700
+Processing by TokimonsController#index as HTML
+  Rendering tokimons/index.html.erb within layouts/application
+  [1m[36mTokimon Load (1.1ms)[0m  [1m[34mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (66.2ms)
+Completed 200 OK in 680ms (Views: 623.5ms | ActiveRecord: 9.2ms)
+
+
+Started GET "/trainers" for 127.0.0.1 at 2016-10-09 22:28:01 -0700
+Processing by TrainersController#index as HTML
+  Rendering trainers/index.html.erb within layouts/application
+  [1m[36mTrainer Load (0.8ms)[0m  [1m[34mSELECT "trainers".* FROM "trainers"[0m
+  Rendered trainers/index.html.erb within layouts/application (16.9ms)
+Completed 200 OK in 195ms (Views: 122.1ms | ActiveRecord: 5.7ms)
+
+
+Started GET "/trainers" for 127.0.0.1 at 2016-10-09 22:40:17 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TrainersController#index as HTML
+  Rendering trainers/index.html.erb within layouts/application
+  [1m[36mTrainer Load (1.0ms)[0m  [1m[34mSELECT "trainers".* FROM "trainers"[0m
+  Rendered trainers/index.html.erb within layouts/application (30.4ms)
+Completed 200 OK in 591ms (Views: 530.8ms | ActiveRecord: 9.2ms)
+
+
+Started GET "/tokimons" for 127.0.0.1 at 2016-10-09 22:40:25 -0700
+Processing by TokimonsController#index as HTML
+  Rendering tokimons/index.html.erb within layouts/application
+  [1m[36mTokimon Load (1.2ms)[0m  [1m[34mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (28.4ms)
+Completed 200 OK in 185ms (Views: 133.1ms | ActiveRecord: 7.1ms)
+
+
+Started GET "/tokimons" for 127.0.0.1 at 2016-10-09 22:40:26 -0700
+Processing by TokimonsController#index as HTML
+  Rendering tokimons/index.html.erb within layouts/application
+  [1m[36mTokimon Load (1.8ms)[0m  [1m[34mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 53ms (Views: 48.8ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-09 22:49:56 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.0.0.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.0.0.1/lib/rails/templates/rails/welcome/index.html.erb (7.1ms)
+Completed 200 OK in 40ms (Views: 18.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tokimons" for 127.0.0.1 at 2016-10-09 22:50:01 -0700
+Processing by TokimonsController#index as HTML
+  Rendering tokimons/index.html.erb within layouts/application
+  [1m[36mTokimon Load (1.0ms)[0m  [1m[34mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (35.1ms)
+Completed 200 OK in 766ms (Views: 729.1ms | ActiveRecord: 9.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-09 22:55:25 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TrainersController#index as HTML
+  Rendering trainers/index.html.erb within layouts/application
+  [1m[36mTrainer Load (1.4ms)[0m  [1m[34mSELECT "trainers".* FROM "trainers"[0m
+  Rendered trainers/index.html.erb within layouts/application (29.0ms)
+Completed 200 OK in 474ms (Views: 418.1ms | ActiveRecord: 10.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-09 22:55:29 -0700
+Processing by TrainersController#index as HTML
+  Rendering trainers/index.html.erb within layouts/application
+  [1m[36mTrainer Load (0.5ms)[0m  [1m[34mSELECT "trainers".* FROM "trainers"[0m
+  Rendered trainers/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 45ms (Views: 42.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-09 23:00:50 -0700
+Processing by TrainersController#index as HTML
+  Rendering trainers/index.html.erb within layouts/application
+  [1m[36mTrainer Load (0.6ms)[0m  [1m[34mSELECT "trainers".* FROM "trainers"[0m
+  Rendered trainers/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 47ms (Views: 44.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-09 23:00:55 -0700
+Processing by TrainersController#index as HTML
+  Rendering trainers/index.html.erb within layouts/application
+  [1m[36mTrainer Load (4.7ms)[0m  [1m[34mSELECT "trainers".* FROM "trainers"[0m
+  Rendered trainers/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 82ms (Views: 71.3ms | ActiveRecord: 4.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-09 23:06:47 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TokimonsController#index as HTML
+  Rendering tokimons/index.html.erb within layouts/application
+  [1m[36mTokimon Load (1.1ms)[0m  [1m[34mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (37.2ms)
+Completed 500 Internal Server Error in 565ms (ActiveRecord: 9.3ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `trainers_index' for #<#<Class:0x007fdd1b456f50>:0x007fdd1b437ba0>
+Did you mean?  trainers_index_url):
+     9:   </head>
+    10: 
+    11:   <body>
+    12:     <%= link_to "Trainers",trainers_index =%>
+    13:     <%= link_to "Tokimons", tokimons_index=%>
+    14:     <%= yield %>
+    15:   </body>
+  
+app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___3248015948386561250_70293810851860'
+  Rendering /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (11.4ms)
+  Rendering /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.2ms)
+  Rendering /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (170.7ms)
+Started GET "/" for 127.0.0.1 at 2016-10-09 23:07:21 -0700
+Processing by TokimonsController#index as HTML
+  Rendering tokimons/index.html.erb within layouts/application
+  [1m[36mTokimon Load (0.9ms)[0m  [1m[34mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 46ms (Views: 42.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/trainers/index" for 127.0.0.1 at 2016-10-09 23:07:24 -0700
+Processing by TrainersController#show as HTML
+  Parameters: {"id"=>"index"}
+  [1m[36mTrainer Load (0.7ms)[0m  [1m[34mSELECT  "trainers".* FROM "trainers" WHERE "trainers"."id" = $1 LIMIT $2[0m  [["id", 0], ["LIMIT", 1]]
+Completed 404 Not Found in 114ms (ActiveRecord: 14.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Trainer with 'id'=index):
+  
+app/controllers/trainers_controller.rb:67:in `set_trainer'
+  Rendering /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.2ms)
+  Rendering /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendering /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (152.7ms)
+Started GET "/" for 127.0.0.1 at 2016-10-09 23:07:35 -0700
+Processing by TokimonsController#index as HTML
+  Rendering tokimons/index.html.erb within layouts/application
+  [1m[36mTokimon Load (0.5ms)[0m  [1m[34mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 41ms (Views: 37.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tokimons/index" for 127.0.0.1 at 2016-10-09 23:07:37 -0700
+Processing by TokimonsController#show as HTML
+  Parameters: {"id"=>"index"}
+  [1m[36mTokimon Load (6.7ms)[0m  [1m[34mSELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT $2[0m  [["id", 0], ["LIMIT", 1]]
+Completed 404 Not Found in 13ms (ActiveRecord: 7.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Tokimon with 'id'=index):
+  
+app/controllers/tokimons_controller.rb:67:in `set_tokimon'
+  Rendering /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.6ms)
+  Rendering /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendering /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (144.1ms)
+Started GET "/" for 127.0.0.1 at 2016-10-09 23:07:44 -0700
+Processing by TokimonsController#index as HTML
+  Rendering tokimons/index.html.erb within layouts/application
+  [1m[36mTokimon Load (2.6ms)[0m  [1m[34mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 60ms (Views: 53.8ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/trainers/index" for 127.0.0.1 at 2016-10-09 23:08:03 -0700
+Processing by TrainersController#show as HTML
+  Parameters: {"id"=>"index"}
+  [1m[36mTrainer Load (3.4ms)[0m  [1m[34mSELECT  "trainers".* FROM "trainers" WHERE "trainers"."id" = $1 LIMIT $2[0m  [["id", 0], ["LIMIT", 1]]
+Completed 404 Not Found in 21ms (ActiveRecord: 8.6ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Trainer with 'id'=index):
+  
+app/controllers/trainers_controller.rb:67:in `set_trainer'
+  Rendering /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.2ms)
+  Rendering /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendering /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (144.7ms)
+Started GET "/trainers/" for 127.0.0.1 at 2016-10-09 23:08:08 -0700
+Processing by TrainersController#index as HTML
+  Rendering trainers/index.html.erb within layouts/application
+  [1m[36mTrainer Load (0.6ms)[0m  [1m[34mSELECT "trainers".* FROM "trainers"[0m
+  Rendered trainers/index.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 49ms (Views: 45.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/trainers/" for 127.0.0.1 at 2016-10-09 23:13:21 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TrainersController#index as HTML
+  Rendering trainers/index.html.erb within layouts/application
+  [1m[36mTrainer Load (0.9ms)[0m  [1m[34mSELECT "trainers".* FROM "trainers"[0m
+  Rendered trainers/index.html.erb within layouts/application (28.6ms)
+Completed 200 OK in 450ms (Views: 415.7ms | ActiveRecord: 8.9ms)
+
+
+Started GET "/tokimons" for 127.0.0.1 at 2016-10-09 23:13:23 -0700
+Processing by TokimonsController#index as HTML
+  Rendering tokimons/index.html.erb within layouts/application
+  [1m[36mTokimon Load (1.1ms)[0m  [1m[34mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (28.0ms)
+Completed 200 OK in 88ms (Views: 61.5ms | ActiveRecord: 6.8ms)
+
+
+Started GET "/trainers" for 127.0.0.1 at 2016-10-09 23:13:25 -0700
+Processing by TrainersController#index as HTML
+  Rendering trainers/index.html.erb within layouts/application
+  [1m[36mTrainer Load (2.3ms)[0m  [1m[34mSELECT "trainers".* FROM "trainers"[0m
+  Rendered trainers/index.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 63ms (Views: 56.0ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/tokimons" for 127.0.0.1 at 2016-10-09 23:13:26 -0700
+Processing by TokimonsController#index as HTML
+  Rendering tokimons/index.html.erb within layouts/application
+  [1m[36mTokimon Load (0.5ms)[0m  [1m[34mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 88ms (Views: 83.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/trainers" for 127.0.0.1 at 2016-10-09 23:13:27 -0700
+Processing by TrainersController#index as HTML
+  Rendering trainers/index.html.erb within layouts/application
+  [1m[36mTrainer Load (2.2ms)[0m  [1m[34mSELECT "trainers".* FROM "trainers"[0m
+  Rendered trainers/index.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 95ms (Views: 88.5ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/tokimons" for 127.0.0.1 at 2016-10-09 23:13:27 -0700
+Processing by TokimonsController#index as HTML
+  Rendering tokimons/index.html.erb within layouts/application
+  [1m[36mTokimon Load (0.7ms)[0m  [1m[34mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 78ms (Views: 65.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/trainers" for 127.0.0.1 at 2016-10-09 23:13:28 -0700
+Processing by TrainersController#index as HTML
+  Rendering trainers/index.html.erb within layouts/application
+  [1m[36mTrainer Load (8.2ms)[0m  [1m[34mSELECT "trainers".* FROM "trainers"[0m
+  Rendered trainers/index.html.erb within layouts/application (17.7ms)
+Completed 200 OK in 61ms (Views: 49.3ms | ActiveRecord: 8.2ms)
+
+
+Started GET "/tokimons" for 127.0.0.1 at 2016-10-09 23:13:28 -0700
+Processing by TokimonsController#index as HTML
+  Rendering tokimons/index.html.erb within layouts/application
+  [1m[36mTokimon Load (0.5ms)[0m  [1m[34mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 48ms (Views: 44.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/trainers" for 127.0.0.1 at 2016-10-09 23:13:29 -0700
+Processing by TrainersController#index as HTML
+  Rendering trainers/index.html.erb within layouts/application
+  [1m[36mTrainer Load (5.9ms)[0m  [1m[34mSELECT "trainers".* FROM "trainers"[0m
+  Rendered trainers/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 63ms (Views: 53.1ms | ActiveRecord: 5.9ms)
+
+
+Started GET "/tokimons" for 127.0.0.1 at 2016-10-09 23:13:29 -0700
+Processing by TokimonsController#index as HTML
+  Rendering tokimons/index.html.erb within layouts/application
+  [1m[36mTokimon Load (1.4ms)[0m  [1m[34mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 63ms (Views: 55.1ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/trainers" for 127.0.0.1 at 2016-10-09 23:13:30 -0700
+Processing by TrainersController#index as HTML
+  Rendering trainers/index.html.erb within layouts/application
+  [1m[36mTrainer Load (8.7ms)[0m  [1m[34mSELECT "trainers".* FROM "trainers"[0m
+  Rendered trainers/index.html.erb within layouts/application (11.8ms)
+Completed 200 OK in 70ms (Views: 58.8ms | ActiveRecord: 8.7ms)
+
+
+Started GET "/tokimons" for 127.0.0.1 at 2016-10-09 23:13:30 -0700
+Processing by TokimonsController#index as HTML
+  Rendering tokimons/index.html.erb within layouts/application
+  [1m[36mTokimon Load (1.2ms)[0m  [1m[34mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (17.9ms)
+Completed 200 OK in 61ms (Views: 56.9ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/trainers" for 127.0.0.1 at 2016-10-09 23:13:31 -0700
+Processing by TrainersController#index as HTML
+  Rendering trainers/index.html.erb within layouts/application
+  [1m[36mTrainer Load (0.6ms)[0m  [1m[34mSELECT "trainers".* FROM "trainers"[0m
+  Rendered trainers/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 57ms (Views: 44.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tokimons" for 127.0.0.1 at 2016-10-09 23:13:32 -0700
+Processing by TokimonsController#index as HTML
+  Rendering tokimons/index.html.erb within layouts/application
+  [1m[36mTokimon Load (0.6ms)[0m  [1m[34mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 58ms (Views: 54.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/trainers" for 127.0.0.1 at 2016-10-09 23:13:33 -0700
+Processing by TrainersController#index as HTML
+  Rendering trainers/index.html.erb within layouts/application
+  [1m[36mTrainer Load (4.3ms)[0m  [1m[34mSELECT "trainers".* FROM "trainers"[0m
+  Rendered trainers/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 62ms (Views: 50.2ms | ActiveRecord: 4.3ms)
+
+
+Started GET "/tokimons" for 127.0.0.1 at 2016-10-09 23:13:34 -0700
+Processing by TokimonsController#index as HTML
+  Rendering tokimons/index.html.erb within layouts/application
+  [1m[36mTokimon Load (1.5ms)[0m  [1m[34mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 58ms (Views: 52.7ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/trainers" for 127.0.0.1 at 2016-10-09 23:13:34 -0700
+Processing by TrainersController#index as HTML
+  Rendering trainers/index.html.erb within layouts/application
+  [1m[36mTrainer Load (0.5ms)[0m  [1m[34mSELECT "trainers".* FROM "trainers"[0m
+  Rendered trainers/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 48ms (Views: 43.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tokimons" for 127.0.0.1 at 2016-10-09 23:13:35 -0700
+Processing by TokimonsController#index as HTML
+  Rendering tokimons/index.html.erb within layouts/application
+  [1m[36mTokimon Load (2.1ms)[0m  [1m[34mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 49ms (Views: 43.6ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/trainers" for 127.0.0.1 at 2016-10-09 23:13:35 -0700
+Processing by TrainersController#index as HTML
+  Rendering trainers/index.html.erb within layouts/application
+  [1m[36mTrainer Load (1.1ms)[0m  [1m[34mSELECT "trainers".* FROM "trainers"[0m
+  Rendered trainers/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 67ms (Views: 51.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/tokimons" for 127.0.0.1 at 2016-10-09 23:13:36 -0700
+Processing by TokimonsController#index as HTML
+  Rendering tokimons/index.html.erb within layouts/application
+  [1m[36mTokimon Load (6.3ms)[0m  [1m[34mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 56ms (Views: 46.0ms | ActiveRecord: 6.3ms)
+
+
+Started GET "/tokimons/new" for 127.0.0.1 at 2016-10-09 23:13:48 -0700
+Processing by TokimonsController#new as HTML
+  Rendering tokimons/new.html.erb within layouts/application
+  [1m[36mTrainer Load (0.5ms)[0m  [1m[34mSELECT "trainers".* FROM "trainers"[0m
+  Rendered tokimons/_form.html.erb (73.8ms)
+  Rendered tokimons/new.html.erb within layouts/application (87.6ms)
+Completed 200 OK in 134ms (Views: 123.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/trainers" for 127.0.0.1 at 2016-10-09 23:13:54 -0700
+Processing by TrainersController#index as HTML
+  Rendering trainers/index.html.erb within layouts/application
+  [1m[36mTrainer Load (0.5ms)[0m  [1m[34mSELECT "trainers".* FROM "trainers"[0m
+  Rendered trainers/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 53ms (Views: 42.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/trainers/1/edit" for 127.0.0.1 at 2016-10-09 23:13:55 -0700
+Processing by TrainersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTrainer Load (3.1ms)[0m  [1m[34mSELECT  "trainers".* FROM "trainers" WHERE "trainers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering trainers/edit.html.erb within layouts/application
+  Rendered trainers/_form.html.erb (5.5ms)
+  Rendered trainers/edit.html.erb within layouts/application (17.9ms)
+Completed 200 OK in 124ms (Views: 50.9ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/trainers" for 127.0.0.1 at 2016-10-09 23:13:56 -0700
+Processing by TrainersController#index as HTML
+  Rendering trainers/index.html.erb within layouts/application
+  [1m[36mTrainer Load (2.7ms)[0m  [1m[34mSELECT "trainers".* FROM "trainers"[0m
+  Rendered trainers/index.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 70ms (Views: 65.0ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/tokimons" for 127.0.0.1 at 2016-10-09 23:13:57 -0700
+Processing by TokimonsController#index as HTML
+  Rendering tokimons/index.html.erb within layouts/application
+  [1m[36mTokimon Load (1.4ms)[0m  [1m[34mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 58ms (Views: 52.4ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/trainers" for 127.0.0.1 at 2016-10-09 23:14:02 -0700
+Processing by TrainersController#index as HTML
+  Rendering trainers/index.html.erb within layouts/application
+  [1m[36mTrainer Load (1.6ms)[0m  [1m[34mSELECT "trainers".* FROM "trainers"[0m
+  Rendered trainers/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 67ms (Views: 62.5ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/tokimons" for 127.0.0.1 at 2016-10-09 23:14:04 -0700
+Processing by TokimonsController#index as HTML
+  Rendering tokimons/index.html.erb within layouts/application
+  [1m[36mTokimon Load (6.1ms)[0m  [1m[34mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 69ms (Views: 51.6ms | ActiveRecord: 6.1ms)
+
+
+Started GET "/trainers" for 127.0.0.1 at 2016-10-09 23:14:04 -0700
+Processing by TrainersController#index as HTML
+  Rendering trainers/index.html.erb within layouts/application
+  [1m[36mTrainer Load (0.7ms)[0m  [1m[34mSELECT "trainers".* FROM "trainers"[0m
+  Rendered trainers/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 81ms (Views: 77.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/tokimons" for 127.0.0.1 at 2016-10-09 23:14:06 -0700
+Processing by TokimonsController#index as HTML
+  Rendering tokimons/index.html.erb within layouts/application
+  [1m[36mTokimon Load (3.9ms)[0m  [1m[34mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 67ms (Views: 60.2ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/trainers" for 127.0.0.1 at 2016-10-09 23:14:06 -0700
+Processing by TrainersController#index as HTML
+  Rendering trainers/index.html.erb within layouts/application
+  [1m[36mTrainer Load (2.4ms)[0m  [1m[34mSELECT "trainers".* FROM "trainers"[0m
+  Rendered trainers/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 78ms (Views: 72.9ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/tokimons" for 127.0.0.1 at 2016-10-09 23:14:07 -0700
+Processing by TokimonsController#index as HTML
+  Rendering tokimons/index.html.erb within layouts/application
+  [1m[36mTokimon Load (3.8ms)[0m  [1m[34mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 54ms (Views: 47.3ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/trainers" for 127.0.0.1 at 2016-10-09 23:14:07 -0700
+Processing by TrainersController#index as HTML
+  Rendering trainers/index.html.erb within layouts/application
+  [1m[36mTrainer Load (2.2ms)[0m  [1m[34mSELECT "trainers".* FROM "trainers"[0m
+  Rendered trainers/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 55ms (Views: 50.2ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/tokimons" for 127.0.0.1 at 2016-10-09 23:14:08 -0700
+Processing by TokimonsController#index as HTML
+  Rendering tokimons/index.html.erb within layouts/application
+  [1m[36mTokimon Load (0.8ms)[0m  [1m[34mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 45ms (Views: 41.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/trainers" for 127.0.0.1 at 2016-10-09 23:14:08 -0700
+Processing by TrainersController#index as HTML
+  Rendering trainers/index.html.erb within layouts/application
+  [1m[36mTrainer Load (1.4ms)[0m  [1m[34mSELECT "trainers".* FROM "trainers"[0m
+  Rendered trainers/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 64ms (Views: 55.6ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/tokimons" for 127.0.0.1 at 2016-10-09 23:14:09 -0700
+Processing by TokimonsController#index as HTML
+  Rendering tokimons/index.html.erb within layouts/application
+  [1m[36mTokimon Load (0.5ms)[0m  [1m[34mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 43ms (Views: 39.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-09 23:14:14 -0700
+Processing by TokimonsController#index as HTML
+  Rendering tokimons/index.html.erb within layouts/application
+  [1m[36mTokimon Load (0.5ms)[0m  [1m[34mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 40ms (Views: 37.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-09 23:27:35 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (1.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MainController#home as HTML
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 945ms (Views: 928.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tokimons" for 127.0.0.1 at 2016-10-09 23:31:11 -0700
+Processing by TokimonsController#index as HTML
+  Rendering tokimons/index.html.erb within layouts/application
+  [1m[36mTokimon Load (1.0ms)[0m  [1m[34mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (46.2ms)
+Completed 200 OK in 178ms (Views: 77.7ms | ActiveRecord: 22.6ms)
+
+
+Started GET "/tokimons/new" for 127.0.0.1 at 2016-10-09 23:31:12 -0700
+Processing by TokimonsController#new as HTML
+  Rendering tokimons/new.html.erb within layouts/application
+  [1m[36mTrainer Load (1.2ms)[0m  [1m[34mSELECT "trainers".* FROM "trainers"[0m
+  Rendered tokimons/_form.html.erb (94.1ms)
+  Rendered tokimons/new.html.erb within layouts/application (98.3ms)
+Completed 200 OK in 174ms (Views: 147.3ms | ActiveRecord: 12.6ms)
+
+
+Started GET "/tokimons/new" for 127.0.0.1 at 2016-10-09 23:31:14 -0700
+Processing by TokimonsController#new as HTML
+  Rendering tokimons/new.html.erb within layouts/application
+  [1m[36mTrainer Load (0.8ms)[0m  [1m[34mSELECT "trainers".* FROM "trainers"[0m
+  Rendered tokimons/_form.html.erb (17.0ms)
+  Rendered tokimons/new.html.erb within layouts/application (19.7ms)
+Completed 200 OK in 81ms (Views: 75.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-09 23:35:21 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MainController#home as HTML
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 385ms (Views: 366.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tokimons" for 127.0.0.1 at 2016-10-09 23:35:23 -0700
+Processing by TokimonsController#index as HTML
+  Rendering tokimons/index.html.erb within layouts/application
+  Rendered tokimons/index.html.erb within layouts/application (39.5ms)
+Completed 500 Internal Server Error in 63ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/Afke/tokimons/app/views/tokimons/index.html.erb:26: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+...( tokimon.trainer_id, link_to "See Trainer", trainer_path);@...
+...                               ^
+/Users/Afke/tokimons/app/views/tokimons/index.html.erb:26: syntax error, unexpected ',', expecting ')'
+...iner_id, link_to "See Trainer", trainer_path);@output_buffer...
+...                               ^):
+  
+app/views/tokimons/index.html.erb:26: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/views/tokimons/index.html.erb:26: syntax error, unexpected ',', expecting ')'
+  Rendering /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (9.1ms)
+  Rendering /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendering /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (170.9ms)
+Started GET "/tokimons" for 127.0.0.1 at 2016-10-09 23:35:49 -0700
+Processing by TokimonsController#index as HTML
+  Rendering tokimons/index.html.erb within layouts/application
+  Rendered tokimons/index.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/Afke/tokimons/app/views/tokimons/index.html.erb:26: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+...( tokimon.trainer_id, link_to "See Trainer", trainer_path);@...
+...                               ^
+/Users/Afke/tokimons/app/views/tokimons/index.html.erb:26: syntax error, unexpected ',', expecting ')'
+...iner_id, link_to "See Trainer", trainer_path);@output_buffer...
+...                               ^):
+  
+app/views/tokimons/index.html.erb:26: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/views/tokimons/index.html.erb:26: syntax error, unexpected ',', expecting ')'
+  Rendering /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.6ms)
+  Rendering /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendering /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (150.1ms)
+Started GET "/tokimons" for 127.0.0.1 at 2016-10-09 23:35:57 -0700
+Processing by TokimonsController#index as HTML
+  Rendering tokimons/index.html.erb within layouts/application
+  [1m[36mTokimon Load (1.2ms)[0m  [1m[34mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (34.7ms)
+Completed 500 Internal Server Error in 42ms (ActiveRecord: 9.3ms)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"trainers"} missing required keys: [:id]):
+    23:     <% @tokimons.each do |tokimon| %>
+    24:       <tr>
+    25:         <td><%= tokimon.tname %></td>
+    26:         <td><%= link_to "See Trainer", trainer_path%></td>
+    27:         <td><%= tokimon.weight %></td>
+    28:         <td><%= tokimon.height %></td>
+    29:         <td><%= tokimon.flyl %></td>
+  
+app/views/tokimons/index.html.erb:26:in `block in _app_views_tokimons_index_html_erb___69910285559345591_70194589460700'
+app/views/tokimons/index.html.erb:23:in `_app_views_tokimons_index_html_erb___69910285559345591_70194589460700'
+  Rendering /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.1ms)
+  Rendering /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendering /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (157.0ms)
+Started GET "/tokimons" for 127.0.0.1 at 2016-10-09 23:36:16 -0700
+Processing by TokimonsController#index as HTML
+  Rendering tokimons/index.html.erb within layouts/application
+  [1m[36mTokimon Load (0.7ms)[0m  [1m[34mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 46ms (Views: 42.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/trainers/1" for 127.0.0.1 at 2016-10-09 23:36:19 -0700
+Processing by TrainersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTrainer Load (0.9ms)[0m  [1m[34mSELECT  "trainers".* FROM "trainers" WHERE "trainers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering trainers/show.html.erb within layouts/application
+  Rendered trainers/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 346ms (Views: 38.8ms | ActiveRecord: 7.0ms)
+
+
+Started GET "/trainers" for 127.0.0.1 at 2016-10-09 23:36:21 -0700
+Processing by TrainersController#index as HTML
+  Rendering trainers/index.html.erb within layouts/application
+  [1m[36mTrainer Load (6.5ms)[0m  [1m[34mSELECT "trainers".* FROM "trainers"[0m
+  Rendered trainers/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 60ms (Views: 50.5ms | ActiveRecord: 6.5ms)
+
+
+Started GET "/trainers/new" for 127.0.0.1 at 2016-10-09 23:36:24 -0700
+Processing by TrainersController#new as HTML
+  Rendering trainers/new.html.erb within layouts/application
+  Rendered trainers/_form.html.erb (19.9ms)
+  Rendered trainers/new.html.erb within layouts/application (22.7ms)
+Completed 200 OK in 66ms (Views: 57.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/trainers" for 127.0.0.1 at 2016-10-09 23:36:26 -0700
+Processing by TrainersController#index as HTML
+  Rendering trainers/index.html.erb within layouts/application
+  [1m[36mTrainer Load (2.1ms)[0m  [1m[34mSELECT "trainers".* FROM "trainers"[0m
+  Rendered trainers/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 66ms (Views: 60.1ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/tokimons" for 127.0.0.1 at 2016-10-09 23:36:26 -0700
+Processing by TokimonsController#index as HTML
+  Rendering tokimons/index.html.erb within layouts/application
+  [1m[36mTokimon Load (3.0ms)[0m  [1m[34mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 82ms (Views: 76.1ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/tokimons" for 127.0.0.1 at 2016-10-09 23:37:08 -0700
+Processing by TokimonsController#index as HTML
+  Rendering tokimons/index.html.erb within layouts/application
+  [1m[36mTokimon Load (1.3ms)[0m  [1m[34mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 52ms (Views: 47.8ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/trainers/1" for 127.0.0.1 at 2016-10-09 23:37:09 -0700
+Processing by TrainersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTrainer Load (0.5ms)[0m  [1m[34mSELECT  "trainers".* FROM "trainers" WHERE "trainers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering trainers/show.html.erb within layouts/application
+  Rendered trainers/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 60ms (Views: 54.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tokimons" for 127.0.0.1 at 2016-10-09 23:37:32 -0700
+Processing by TokimonsController#index as HTML
+  Rendering tokimons/index.html.erb within layouts/application
+  [1m[36mTokimon Load (0.6ms)[0m  [1m[34mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 47ms (Views: 43.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/trainers/1" for 127.0.0.1 at 2016-10-09 23:37:34 -0700
+Processing by TrainersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTrainer Load (0.5ms)[0m  [1m[34mSELECT  "trainers".* FROM "trainers" WHERE "trainers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering trainers/show.html.erb within layouts/application
+  Rendered trainers/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 58ms (Views: 47.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/trainers/1" for 127.0.0.1 at 2016-10-09 23:37:37 -0700
+Processing by TrainersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTrainer Load (0.6ms)[0m  [1m[34mSELECT  "trainers".* FROM "trainers" WHERE "trainers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering trainers/show.html.erb within layouts/application
+  Rendered trainers/show.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 65ms (Views: 60.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tokimons" for 127.0.0.1 at 2016-10-09 23:38:15 -0700
+Processing by TokimonsController#index as HTML
+  Rendering tokimons/index.html.erb within layouts/application
+  [1m[36mTokimon Load (0.5ms)[0m  [1m[34mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 41ms (Views: 38.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-09 23:38:17 -0700
+Processing by MainController#home as HTML
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 51ms (Views: 48.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/trainers" for 127.0.0.1 at 2016-10-09 23:38:19 -0700
+Processing by TrainersController#index as HTML
+  Rendering trainers/index.html.erb within layouts/application
+  [1m[36mTrainer Load (2.0ms)[0m  [1m[34mSELECT "trainers".* FROM "trainers"[0m
+  Rendered trainers/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 70ms (Views: 65.3ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/tokimons" for 127.0.0.1 at 2016-10-09 23:38:20 -0700
+Processing by TokimonsController#index as HTML
+  Rendering tokimons/index.html.erb within layouts/application
+  [1m[36mTokimon Load (1.4ms)[0m  [1m[34mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 53ms (Views: 49.0ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/trainers/1" for 127.0.0.1 at 2016-10-09 23:38:21 -0700
+Processing by TrainersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTrainer Load (8.9ms)[0m  [1m[34mSELECT  "trainers".* FROM "trainers" WHERE "trainers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering trainers/show.html.erb within layouts/application
+  Rendered trainers/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 53ms (Views: 39.7ms | ActiveRecord: 8.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-09 23:38:22 -0700
+Processing by MainController#home as HTML
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 81ms (Views: 78.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/trainers" for 127.0.0.1 at 2016-10-09 23:39:38 -0700
+Processing by TrainersController#index as HTML
+  Rendering trainers/index.html.erb within layouts/application
+  [1m[36mTrainer Load (1.6ms)[0m  [1m[34mSELECT "trainers".* FROM "trainers"[0m
+  Rendered trainers/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 70ms (Views: 65.4ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/tokimons" for 127.0.0.1 at 2016-10-09 23:39:39 -0700
+Processing by TokimonsController#index as HTML
+  Rendering tokimons/index.html.erb within layouts/application
+  [1m[36mTokimon Load (0.6ms)[0m  [1m[34mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 63ms (Views: 51.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/trainers/1" for 127.0.0.1 at 2016-10-09 23:39:40 -0700
+Processing by TrainersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTrainer Load (1.6ms)[0m  [1m[34mSELECT  "trainers".* FROM "trainers" WHERE "trainers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering trainers/show.html.erb within layouts/application
+  Rendered trainers/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 65ms (Views: 58.6ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/trainers/1/edit" for 127.0.0.1 at 2016-10-09 23:39:43 -0700
+Processing by TrainersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTrainer Load (0.5ms)[0m  [1m[34mSELECT  "trainers".* FROM "trainers" WHERE "trainers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering trainers/edit.html.erb within layouts/application
+  Rendered trainers/_form.html.erb (3.7ms)
+  Rendered trainers/edit.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 74ms (Views: 69.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/trainers" for 127.0.0.1 at 2016-10-09 23:39:44 -0700
+Processing by TrainersController#index as HTML
+  Rendering trainers/index.html.erb within layouts/application
+  [1m[36mTrainer Load (0.7ms)[0m  [1m[34mSELECT "trainers".* FROM "trainers"[0m
+  Rendered trainers/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 43ms (Views: 39.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/tokimons" for 127.0.0.1 at 2016-10-09 23:39:47 -0700
+Processing by TokimonsController#index as HTML
+  Rendering tokimons/index.html.erb within layouts/application
+  [1m[36mTokimon Load (0.5ms)[0m  [1m[34mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 90ms (Views: 86.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/trainers" for 127.0.0.1 at 2016-10-09 23:39:48 -0700
+Processing by TrainersController#index as HTML
+  Rendering trainers/index.html.erb within layouts/application
+  [1m[36mTrainer Load (0.5ms)[0m  [1m[34mSELECT "trainers".* FROM "trainers"[0m
+  Rendered trainers/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 90ms (Views: 50.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tokimons" for 127.0.0.1 at 2016-10-09 23:39:49 -0700
+Processing by TokimonsController#index as HTML
+  Rendering tokimons/index.html.erb within layouts/application
+  [1m[36mTokimon Load (0.6ms)[0m  [1m[34mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 54ms (Views: 47.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/trainers" for 127.0.0.1 at 2016-10-09 23:39:50 -0700
+Processing by TrainersController#index as HTML
+  Rendering trainers/index.html.erb within layouts/application
+  [1m[36mTrainer Load (0.9ms)[0m  [1m[34mSELECT "trainers".* FROM "trainers"[0m
+  Rendered trainers/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 74ms (Views: 69.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-09 23:39:50 -0700
+Processing by MainController#home as HTML
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 75ms (Views: 70.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/trainers" for 127.0.0.1 at 2016-10-09 23:39:51 -0700
+Processing by TrainersController#index as HTML
+  Rendering trainers/index.html.erb within layouts/application
+  [1m[36mTrainer Load (0.5ms)[0m  [1m[34mSELECT "trainers".* FROM "trainers"[0m
+  Rendered trainers/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 70ms (Views: 65.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tokimons" for 127.0.0.1 at 2016-10-09 23:39:51 -0700
+Processing by TokimonsController#index as HTML
+  Rendering tokimons/index.html.erb within layouts/application
+  [1m[36mTokimon Load (2.0ms)[0m  [1m[34mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 64ms (Views: 58.4ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/trainers" for 127.0.0.1 at 2016-10-09 23:39:52 -0700
+Processing by TrainersController#index as HTML
+  Rendering trainers/index.html.erb within layouts/application
+  [1m[36mTrainer Load (11.6ms)[0m  [1m[34mSELECT "trainers".* FROM "trainers"[0m
+  Rendered trainers/index.html.erb within layouts/application (15.2ms)
+Completed 200 OK in 72ms (Views: 53.9ms | ActiveRecord: 11.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-09 23:39:52 -0700
+Processing by MainController#home as HTML
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 75ms (Views: 64.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/trainers" for 127.0.0.1 at 2016-10-09 23:39:53 -0700
+Processing by TrainersController#index as HTML
+  Rendering trainers/index.html.erb within layouts/application
+  [1m[36mTrainer Load (0.7ms)[0m  [1m[34mSELECT "trainers".* FROM "trainers"[0m
+  Rendered trainers/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 73ms (Views: 67.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/trainers" for 127.0.0.1 at 2016-10-09 23:42:13 -0700
+Processing by TrainersController#index as HTML
+  Rendering trainers/index.html.erb within layouts/application
+  [1m[36mTrainer Load (5.5ms)[0m  [1m[34mSELECT "trainers".* FROM "trainers"[0m
+  Rendered trainers/index.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 160ms (Views: 152.0ms | ActiveRecord: 5.5ms)
+
+
+Started GET "/tokimons" for 127.0.0.1 at 2016-10-09 23:42:15 -0700
+Processing by TokimonsController#index as HTML
+  Rendering tokimons/index.html.erb within layouts/application
+  [1m[36mTokimon Load (0.5ms)[0m  [1m[34mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 49ms (Views: 44.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tokimons/new" for 127.0.0.1 at 2016-10-09 23:42:17 -0700
+Processing by TokimonsController#new as HTML
+  Rendering tokimons/new.html.erb within layouts/application
+  [1m[36mTrainer Load (0.5ms)[0m  [1m[34mSELECT "trainers".* FROM "trainers"[0m
+  Rendered tokimons/_form.html.erb (20.3ms)
+  Rendered tokimons/new.html.erb within layouts/application (23.1ms)
+Completed 200 OK in 76ms (Views: 64.9ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/tokimons" for 127.0.0.1 at 2016-10-09 23:42:29 -0700
+Processing by TokimonsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2g27qmXCq/rH7mdNwF6swWshuEJdxLAYdam2o6zM1vABvO8lYSyl7kdEFEpmLFS+6ebT8o1xwABZD4+06TCMvA==", "tokimon"=>{"tname"=>"2", "trainer_id"=>"1", "weight"=>"2", "height"=>"3", "flyl"=>"10", "fightl"=>"3", "waterl"=>"3", "electricl"=>"", "freezel"=>"", "total"=>""}, "commit"=>"Create Tokimon"}
+  [1m[35m (1.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTrainer Load (0.4ms)[0m  [1m[34mSELECT  "trainers".* FROM "trainers" WHERE "trainers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (1.6ms)[0m  [1m[32mINSERT INTO "tokimons" ("tname", "trainer_id", "weight", "height", "flyl", "fightl", "waterl", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["tname", "2"], ["trainer_id", 1], ["weight", 2], ["height", 3], ["flyl", 10], ["fightl", 3], ["waterl", 3], ["created_at", 2016-10-10 06:42:29 UTC], ["updated_at", 2016-10-10 06:42:29 UTC]]
+  [1m[35m (186.2ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:5000/tokimons/2
+Completed 302 Found in 235ms (ActiveRecord: 189.3ms)
+
+
+Started GET "/tokimons/2" for 127.0.0.1 at 2016-10-09 23:42:29 -0700
+Processing by TokimonsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTokimon Load (0.4ms)[0m  [1m[34mSELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering tokimons/show.html.erb within layouts/application
+  Rendered tokimons/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 49ms (Views: 43.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/tokimons/2" for 127.0.0.1 at 2016-10-09 23:43:04 -0700
+Processing by TokimonsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTokimon Load (0.6ms)[0m  [1m[34mSELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering tokimons/show.html.erb within layouts/application
+  Rendered tokimons/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 46ms (Views: 42.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tokimons" for 127.0.0.1 at 2016-10-09 23:43:08 -0700
+Processing by TokimonsController#index as HTML
+  Rendering tokimons/index.html.erb within layouts/application
+  [1m[36mTokimon Load (4.7ms)[0m  [1m[34mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 80ms (Views: 72.2ms | ActiveRecord: 4.7ms)
+
+
+Started GET "/trainers" for 127.0.0.1 at 2016-10-09 23:43:10 -0700
+Processing by TrainersController#index as HTML
+  Rendering trainers/index.html.erb within layouts/application
+  [1m[36mTrainer Load (2.7ms)[0m  [1m[34mSELECT "trainers".* FROM "trainers"[0m
+  Rendered trainers/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 68ms (Views: 59.2ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-09 23:43:11 -0700
+Processing by MainController#home as HTML
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 57ms (Views: 54.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tokimons/new" for 127.0.0.1 at 2016-10-09 23:43:19 -0700
+Processing by TokimonsController#new as HTML
+  Rendering tokimons/new.html.erb within layouts/application
+  [1m[36mTrainer Load (0.5ms)[0m  [1m[34mSELECT "trainers".* FROM "trainers"[0m
+  Rendered tokimons/_form.html.erb (10.4ms)
+  Rendered tokimons/new.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 56ms (Views: 50.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-09 23:43:20 -0700
+Processing by MainController#home as HTML
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 64ms (Views: 61.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/trainers" for 127.0.0.1 at 2016-10-09 23:43:21 -0700
+Processing by TrainersController#index as HTML
+  Rendering trainers/index.html.erb within layouts/application
+  [1m[36mTrainer Load (3.9ms)[0m  [1m[34mSELECT "trainers".* FROM "trainers"[0m
+  Rendered trainers/index.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 72ms (Views: 62.3ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-09 23:43:23 -0700
+Processing by MainController#home as HTML
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 116ms (Views: 55.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/trainers" for 127.0.0.1 at 2016-10-09 23:45:14 -0700
+Processing by TrainersController#index as HTML
+  Rendering trainers/index.html.erb within layouts/application
+  [1m[36mTrainer Load (1.8ms)[0m  [1m[34mSELECT "trainers".* FROM "trainers"[0m
+  Rendered trainers/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 70ms (Views: 63.0ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/tokimons" for 127.0.0.1 at 2016-10-09 23:45:15 -0700
+Processing by TokimonsController#index as HTML
+  Rendering tokimons/index.html.erb within layouts/application
+  [1m[36mTokimon Load (3.7ms)[0m  [1m[34mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 60ms (Views: 53.1ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/trainers" for 127.0.0.1 at 2016-10-09 23:45:16 -0700
+Processing by TrainersController#index as HTML
+  Rendering trainers/index.html.erb within layouts/application
+  [1m[36mTrainer Load (1.2ms)[0m  [1m[34mSELECT "trainers".* FROM "trainers"[0m
+  Rendered trainers/index.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 56ms (Views: 51.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-09 23:45:16 -0700
+Processing by MainController#home as HTML
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 55ms (Views: 52.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/trainers" for 127.0.0.1 at 2016-10-09 23:45:16 -0700
+Processing by TrainersController#index as HTML
+  Rendering trainers/index.html.erb within layouts/application
+  [1m[36mTrainer Load (0.6ms)[0m  [1m[34mSELECT "trainers".* FROM "trainers"[0m
+  Rendered trainers/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 64ms (Views: 54.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tokimons" for 127.0.0.1 at 2016-10-09 23:45:17 -0700
+Processing by TokimonsController#index as HTML
+  Rendering tokimons/index.html.erb within layouts/application
+  [1m[36mTokimon Load (15.7ms)[0m  [1m[34mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (20.6ms)
+Completed 200 OK in 77ms (Views: 52.8ms | ActiveRecord: 15.7ms)
+
+
+Started GET "/trainers" for 127.0.0.1 at 2016-10-09 23:45:17 -0700
+Processing by TrainersController#index as HTML
+  Rendering trainers/index.html.erb within layouts/application
+  [1m[36mTrainer Load (0.5ms)[0m  [1m[34mSELECT "trainers".* FROM "trainers"[0m
+  Rendered trainers/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 70ms (Views: 64.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-09 23:45:18 -0700
+Processing by MainController#home as HTML
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 76ms (Views: 70.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/trainers" for 127.0.0.1 at 2016-10-09 23:45:19 -0700
+Processing by TrainersController#index as HTML
+  Rendering trainers/index.html.erb within layouts/application
+  [1m[36mTrainer Load (10.1ms)[0m  [1m[34mSELECT "trainers".* FROM "trainers"[0m
+  Rendered trainers/index.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 78ms (Views: 60.4ms | ActiveRecord: 10.1ms)
+
+
+Started GET "/tokimons" for 127.0.0.1 at 2016-10-09 23:45:19 -0700
+Processing by TokimonsController#index as HTML
+  Rendering tokimons/index.html.erb within layouts/application
+  [1m[36mTokimon Load (0.7ms)[0m  [1m[34mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 79ms (Views: 65.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/trainers" for 127.0.0.1 at 2016-10-09 23:45:21 -0700
+Processing by TrainersController#index as HTML
+  Rendering trainers/index.html.erb within layouts/application
+  [1m[36mTrainer Load (6.8ms)[0m  [1m[34mSELECT "trainers".* FROM "trainers"[0m
+  Rendered trainers/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 78ms (Views: 68.2ms | ActiveRecord: 6.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-09 23:45:22 -0700
+Processing by MainController#home as HTML
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 75ms (Views: 72.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/trainers" for 127.0.0.1 at 2016-10-09 23:45:22 -0700
+Processing by TrainersController#index as HTML
+  Rendering trainers/index.html.erb within layouts/application
+  [1m[36mTrainer Load (7.5ms)[0m  [1m[34mSELECT "trainers".* FROM "trainers"[0m
+  Rendered trainers/index.html.erb within layouts/application (13.5ms)
+Completed 200 OK in 73ms (Views: 61.9ms | ActiveRecord: 7.5ms)
+
+
+Started GET "/tokimons" for 127.0.0.1 at 2016-10-09 23:45:23 -0700
+Processing by TokimonsController#index as HTML
+  Rendering tokimons/index.html.erb within layouts/application
+  [1m[36mTokimon Load (10.3ms)[0m  [1m[34mSELECT "tokimons".* FROM "tokimons"[0m
+  Rendered tokimons/index.html.erb within layouts/application (16.4ms)
+Completed 200 OK in 68ms (Views: 52.9ms | ActiveRecord: 10.3ms)
+
+

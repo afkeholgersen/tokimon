@@ -23,7 +23,7 @@
     <% @tokimons.each do |tokimon| %>
       <tr>
         <td><%= tokimon.tname %></td>
-        <td><%= tokimon.trainer_id %></td>
+        <td><%= link_to tokimon.trainer_id, trainer_path(tokimon.trainer_id)%></td>
         <td><%= tokimon.weight %></td>
         <td><%= tokimon.height %></td>
         <td><%= tokimon.flyl %></td>
