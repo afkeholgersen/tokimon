@@ -1,0 +1,54 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @tokimon.tname %>
+</p>
+
+<p>
+  <strong>Trainer:</strong>
+  <%= @tokimon.trainer_id %>
+</p>
+
+<p>
+  <strong>Weight:</strong>
+  <%= @tokimon.weight %>
+</p>
+
+<p>
+  <strong>Height:</strong>
+  <%= @tokimon.height %>
+</p>
+
+<p>
+  <strong>Fly:</strong>
+  <%= @tokimon.flyl %>
+</p>
+
+<p>
+  <strong>Fight:</strong>
+  <%= @tokimon.fightl %>
+</p>
+
+<p>
+  <strong>Water:</strong>
+  <%= @tokimon.waterl %>
+</p>
+
+<p>
+  <strong>Electric:</strong>
+  <%= @tokimon.electricl %>
+</p>
+
+<p>
+  <strong>Freeze:</strong>
+  <%= @tokimon.freezel %>
+</p>
+
+<p>
+  <strong>Total:</strong>
+  <%= @tokimon.total %>
+</p>
+
+<%= link_to 'Edit', edit_tokimon_path(@tokimon) %> |
+<%= link_to 'Back', tokimons_path %>

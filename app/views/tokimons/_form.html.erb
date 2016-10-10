@@ -1,0 +1,67 @@
+<%= form_for(tokimon) do |f| %>
+  <% if tokimon.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(tokimon.errors.count, "error") %> prohibited this tokimon from being saved:</h2>
+
+      <ul>
+      <% tokimon.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label "Name" %>
+    <%= f.text_field :tname %>
+  </div>
+
+  <div class="field">
+    <%= f.label :trainer_id %>
+    <%= f.collection_select( :trainer_id , Trainer.all, :id, :name) %>
+  </div>
+
+  <div class="field">
+    <%= f.label :weight %>
+    <%= f.number_field :weight %>
+  </div>
+
+  <div class="field">
+    <%= f.label :height %>
+    <%= f.number_field :height %>
+  </div>
+
+  <div class="field">
+    <%= f.label :flyl %>
+    <%= f.number_field :flyl %>
+  </div>
+
+  <div class="field">
+    <%= f.label :fightl %>
+    <%= f.number_field :fightl %>
+  </div>
+
+  <div class="field">
+    <%= f.label :waterl %>
+    <%= f.number_field :waterl %>
+  </div>
+
+  <div class="field">
+    <%= f.label :electricl %>
+    <%= f.number_field :electricl %>
+  </div>
+
+  <div class="field">
+    <%= f.label :freezel %>
+    <%= f.number_field :freezel %>
+  </div>
+
+  <div class="field">
+    <%= f.label :total %>
+    <%= f.number_field :total %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
