@@ -8,10 +8,16 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
+
+<div class="background">
+  <div class="main">
+    <img src="public/tokemon1.png" id="icon1" />
   <body>
-    <%= link_to "Home", root_path =%>
-    <%= link_to "Trainers",trainers_path =%>
-    <%= link_to "Tokimons", tokimons_path =%>
+    <%= link_to "Home", root_path, class:"nav" =%>
+    <%= link_to "Trainers",trainers_path, class:"nav"=%>
+    <%= link_to "Tokimons", tokimons_path,class:"nav" =%>
     <%= yield %>
   </body>
+  </div class="main">
+</div>
 </html>

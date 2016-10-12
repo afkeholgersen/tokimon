@@ -30,6 +30,7 @@ class TokimonsController < ApplicationController
       if @tokimon.save
         format.html { redirect_to @tokimon, notice: 'Tokimon was successfully created.' }
         format.json { render :show, status: :created, location: @tokimon }
+
       else
         format.html { render :new }
         format.json { render json: @tokimon.errors, status: :unprocessable_entity }
@@ -65,10 +66,13 @@ class TokimonsController < ApplicationController
     # Use callbacks to share common setup or constraints between actions.
     def set_tokimon
       @tokimon = Tokimon.find(params[:id])
+
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def tokimon_params
-      params.require(:tokimon).permit(:tname, :trainer_id, :weight, :height, :flyl, :fightl, :waterl, :electricl, :freezel, :total)
+      params.require(:tokimon).permit(:tname, :trainer_id, :weight, :height, :flyl, :fightl, :waterl, :electricl, :freezel)
+      
     end
+
 end
