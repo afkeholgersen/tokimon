@@ -21,6 +21,7 @@ class TokimonsController < ApplicationController
   def edit
   end
 
+
   # POST /tokimons
   # POST /tokimons.json
   def create
@@ -72,7 +73,6 @@ class TokimonsController < ApplicationController
     # Never trust parameters from the scary internet, only allow the white list through.
     def tokimon_params
       params.require(:tokimon).permit(:tname, :trainer_id, :weight, :height, :flyl, :fightl, :waterl, :electricl, :freezel)
-      
     end
 
 end
