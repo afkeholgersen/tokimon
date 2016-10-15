@@ -21,7 +21,6 @@ class TokimonsController < ApplicationController
   def edit
   end
 
-
   # POST /tokimons
   # POST /tokimons.json
   def create
@@ -29,8 +28,11 @@ class TokimonsController < ApplicationController
 
     respond_to do |format|
       if @tokimon.save
+        @tokimon.trainer.update_tokimons
         format.html { redirect_to @tokimon, notice: 'Tokimon was successfully created.' }
         format.json { render :show, status: :created, location: @tokimon }
+      #  @trainer = Trainer.find(@tokimon.trainer_id)
+    #    @trainer.update_tokimons
 
       else
         format.html { render :new }
@@ -44,8 +46,12 @@ class TokimonsController < ApplicationController
   def update
     respond_to do |format|
       if @tokimon.update(tokimon_params)
+        @tokimon.trainer.update_tokimons
         format.html { redirect_to @tokimon, notice: 'Tokimon was successfully updated.' }
         format.json { render :show, status: :ok, location: @tokimon }
+        #@trainer = Trainer.find(@tokimon.trainer_id)
+        #@trainer.update_tokimons
+
       else
         format.html { render :edit }
         format.json { render json: @tokimon.errors, status: :unprocessable_entity }
