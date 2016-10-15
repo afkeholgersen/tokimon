@@ -11,13 +11,17 @@
 
 <div class="background">
   <div class="main">
-    <img src="public/tokemon1.png" id="icon1" />
-  <body align="center" color="#CCCCCC">
+    <img src="/tokemon1.png" id="icon1" height="180px" />
+  <body>
+    <div background-color="#CCCCCC" height="10">
+      <body  align="center">
     <%= link_to "Home", root_path, class:"nav" =%>
     <%= link_to "Trainers",trainers_path, class:"nav"=%>
     <%= link_to "Tokimons", tokimons_path,class:"nav" =%>
+      </body>
+    </div>
     <%= yield %>
   </body>
-  </div class="main">
+  </div>
 </div>
 </html>
