@@ -29,7 +29,6 @@ class TokimonsController < ApplicationController
 
     respond_to do |format|
       if @tokimon.save
-        @tokimon.update_total
         @tokimon.trainer.update_tokimons
         format.html { redirect_to @tokimon, notice: 'Tokimon was successfully created.' }
         format.json { render :show, status: :created, location: @tokimon }
@@ -47,7 +46,6 @@ class TokimonsController < ApplicationController
     respond_to do |format|
       if @tokimon.update(tokimon_params)
         @tokimon.trainer.update_tokimons
-        @tokimon.update_total
         format.html { redirect_to @tokimon, notice: 'Tokimon was successfully updated.' }
         format.json { render :show, status: :ok, location: @tokimon }
 

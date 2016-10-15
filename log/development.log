@@ -17680,3 +17680,252 @@ WHERE c.contype = 'f'
   AND t3.nspname = ANY (current_schemas(false))
 ORDER BY c.conname
 [0m
+Started GET "/t" for 127.0.0.1 at 2016-10-14 20:43:00 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  
+ActionController::RoutingError (No route matches [GET] "/t"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered collection of /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [20 times] (64.3ms)
+  Rendered /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (33.0ms)
+  Rendering /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (34.2ms)
+  Rendered /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (369.8ms)
+Started GET "/" for 127.0.0.1 at 2016-10-14 20:43:03 -0700
+Processing by MainController#home as HTML
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 538ms (Views: 533.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tokimons/new" for 127.0.0.1 at 2016-10-14 20:43:05 -0700
+Processing by TokimonsController#new as HTML
+  Rendering tokimons/new.html.erb within layouts/application
+  [1m[36mTrainer Load (19.1ms)[0m  [1m[34mSELECT "trainers".* FROM "trainers"[0m
+  Rendered tokimons/_form.html.erb (71.5ms)
+  Rendered tokimons/new.html.erb within layouts/application (92.1ms)
+Completed 200 OK in 279ms (Views: 106.1ms | ActiveRecord: 33.4ms)
+
+
+Started POST "/tokimons" for 127.0.0.1 at 2016-10-14 20:43:14 -0700
+Processing by TokimonsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CF/6v5nwf68LE+N5YKPLuVeseeILjdJD41/bcMLTghxXs50kzvA3n3iyh5IFl0uw+K7Xlj7B/CEqxwOQY0jHog==", "tokimon"=>{"tname"=>"bob", "trainer_id"=>"1", "weight"=>"20", "height"=>"20", "flyl"=>"20", "fightl"=>"20", "waterl"=>"20", "electricl"=>"20", "freezel"=>"20"}, "commit"=>"Create Tokimon"}
+  [1m[35m (1.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTrainer Load (0.5ms)[0m  [1m[34mSELECT  "trainers".* FROM "trainers" WHERE "trainers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (1.1ms)[0m  [1m[32mINSERT INTO "tokimons" ("tname", "trainer_id", "weight", "height", "flyl", "fightl", "waterl", "electricl", "freezel", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["tname", "bob"], ["trainer_id", 1], ["weight", 20], ["height", 20], ["flyl", 20], ["fightl", 20], ["waterl", 20], ["electricl", 20], ["freezel", 20], ["created_at", 2016-10-15 03:43:14 UTC], ["updated_at", 2016-10-15 03:43:14 UTC]]
+  [1m[35m (233.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT COUNT(*) FROM "tokimons" WHERE "tokimons"."trainer_id" = $1[0m  [["trainer_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "tokimons" WHERE "tokimons"."trainer_id" = $1[0m  [["trainer_id", 1]]
+Redirected to http://localhost:5000/tokimons/18
+Completed 302 Found in 311ms (ActiveRecord: 237.5ms)
+
+
+Started GET "/tokimons/18" for 127.0.0.1 at 2016-10-14 20:43:15 -0700
+Processing by TokimonsController#show as HTML
+  Parameters: {"id"=>"18"}
+  [1m[36mTokimon Load (0.4ms)[0m  [1m[34mSELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT $2[0m  [["id", 18], ["LIMIT", 1]]
+  Rendering tokimons/show.html.erb within layouts/application
+  Rendered tokimons/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 43ms (Views: 38.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/tokimons/18" for 127.0.0.1 at 2016-10-14 20:45:40 -0700
+Processing by TokimonsController#show as HTML
+  Parameters: {"id"=>"18"}
+  [1m[36mTokimon Load (0.7ms)[0m  [1m[34mSELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT $2[0m  [["id", 18], ["LIMIT", 1]]
+  Rendering tokimons/show.html.erb within layouts/application
+  Rendered tokimons/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 119ms (Views: 86.1ms | ActiveRecord: 7.8ms)
+
+
+Started GET "/tokimons/18/edit" for 127.0.0.1 at 2016-10-14 20:45:42 -0700
+Processing by TokimonsController#edit as HTML
+  Parameters: {"id"=>"18"}
+  [1m[36mTokimon Load (0.8ms)[0m  [1m[34mSELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT $2[0m  [["id", 18], ["LIMIT", 1]]
+  Rendering tokimons/edit.html.erb within layouts/application
+  [1m[36mTrainer Load (0.6ms)[0m  [1m[34mSELECT "trainers".* FROM "trainers"[0m
+  Rendered tokimons/_form.html.erb (45.0ms)
+  Rendered tokimons/edit.html.erb within layouts/application (55.2ms)
+Completed 200 OK in 108ms (Views: 95.9ms | ActiveRecord: 6.8ms)
+
+
+Started PATCH "/tokimons/18" for 127.0.0.1 at 2016-10-14 20:45:44 -0700
+Processing by TokimonsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+phjPCF2LFv4SQ1CGndoFdMjf4NHglgJiZ4ehsQ7cqy6buwiJ/pOfeTiWKWnTnC+BKQpywsulNEWFkx1PARINA==", "tokimon"=>{"tname"=>"bob", "trainer_id"=>"1", "weight"=>"20", "height"=>"20", "flyl"=>"20", "fightl"=>"20", "waterl"=>"20", "electricl"=>"20", "freezel"=>"20"}, "commit"=>"Update Tokimon", "id"=>"18"}
+  [1m[36mTokimon Load (1.5ms)[0m  [1m[34mSELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT $2[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+Completed 500 Internal Server Error in 30ms (ActiveRecord: 2.1ms)
+
+
+  
+NoMethodError (undefined method `update_toal' for #<Tokimon:0x007fd0cd3fc4b0>
+Did you mean?  update_total):
+  
+app/controllers/tokimons_controller.rb:48:in `block in update'
+app/controllers/tokimons_controller.rb:47:in `update'
+  Rendering /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (12.6ms)
+  Rendering /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.9ms)
+  Rendering /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.7ms)
+  Rendered /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (186.4ms)
+Started GET "/tokimons/18" for 127.0.0.1 at 2016-10-14 20:46:07 -0700
+Processing by TokimonsController#show as HTML
+  Parameters: {"id"=>"18"}
+  [1m[36mTokimon Load (0.5ms)[0m  [1m[34mSELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT $2[0m  [["id", 18], ["LIMIT", 1]]
+  Rendering tokimons/show.html.erb within layouts/application
+  Rendered tokimons/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 80ms (Views: 40.9ms | ActiveRecord: 6.7ms)
+
+
+Started GET "/tokimons/18/edit" for 127.0.0.1 at 2016-10-14 20:46:10 -0700
+Processing by TokimonsController#edit as HTML
+  Parameters: {"id"=>"18"}
+  [1m[36mTokimon Load (0.8ms)[0m  [1m[34mSELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT $2[0m  [["id", 18], ["LIMIT", 1]]
+  Rendering tokimons/edit.html.erb within layouts/application
+  [1m[36mTrainer Load (0.6ms)[0m  [1m[34mSELECT "trainers".* FROM "trainers"[0m
+  Rendered tokimons/_form.html.erb (30.8ms)
+  Rendered tokimons/edit.html.erb within layouts/application (41.0ms)
+Completed 200 OK in 88ms (Views: 73.1ms | ActiveRecord: 6.2ms)
+
+
+Started PATCH "/tokimons/18" for 127.0.0.1 at 2016-10-14 20:46:11 -0700
+Processing by TokimonsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+tBCdXVnQsMxUfswXX9j+3BejAWvRqqtvwY0Hc6idWm6Js1rc+sg5S36rtfgRntQp9naTePqZnUgjmbuNp1P8Q==", "tokimon"=>{"tname"=>"bob", "trainer_id"=>"1", "weight"=>"20", "height"=>"20", "flyl"=>"20", "fightl"=>"20", "waterl"=>"20", "electricl"=>"20", "freezel"=>"20"}, "commit"=>"Update Tokimon", "id"=>"18"}
+  [1m[36mTokimon Load (1.9ms)[0m  [1m[34mSELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT $2[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[35m (1.9ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.6ms)[0m  [1m[31mROLLBACK[0m
+Completed 500 Internal Server Error in 29ms (ActiveRecord: 4.4ms)
+
+
+  
+NoMethodError (undefined method `update_toal' for #<Tokimon:0x007fd0cf210c58>
+Did you mean?  update_total):
+  
+app/controllers/tokimons_controller.rb:47:in `block in update'
+app/controllers/tokimons_controller.rb:46:in `update'
+  Rendering /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.6ms)
+  Rendering /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendering /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (178.7ms)
+Started GET "/tokimons/18" for 127.0.0.1 at 2016-10-14 20:46:35 -0700
+Processing by TokimonsController#show as HTML
+  Parameters: {"id"=>"18"}
+  [1m[36mTokimon Load (0.3ms)[0m  [1m[34mSELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT $2[0m  [["id", 18], ["LIMIT", 1]]
+  Rendering tokimons/show.html.erb within layouts/application
+  Rendered tokimons/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 69ms (Views: 39.3ms | ActiveRecord: 6.6ms)
+
+
+Started GET "/tokimons/18/edit" for 127.0.0.1 at 2016-10-14 20:46:37 -0700
+Processing by TokimonsController#edit as HTML
+  Parameters: {"id"=>"18"}
+  [1m[36mTokimon Load (1.7ms)[0m  [1m[34mSELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT $2[0m  [["id", 18], ["LIMIT", 1]]
+  Rendering tokimons/edit.html.erb within layouts/application
+  [1m[36mTrainer Load (0.6ms)[0m  [1m[34mSELECT "trainers".* FROM "trainers"[0m
+  Rendered tokimons/_form.html.erb (33.4ms)
+  Rendered tokimons/edit.html.erb within layouts/application (38.4ms)
+Completed 200 OK in 89ms (Views: 73.2ms | ActiveRecord: 7.3ms)
+
+
+Started PATCH "/tokimons/18" for 127.0.0.1 at 2016-10-14 20:46:38 -0700
+Processing by TokimonsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Sb3i+i7g3ZC2NKzQw3MxX7X8GCdj/l4S8Qhy9/RgAP8JS23kKGy/tqqf+Td+Sin0YntOby9SkspugCAEDF86Zw==", "tokimon"=>{"tname"=>"bob", "trainer_id"=>"1", "weight"=>"20", "height"=>"20", "flyl"=>"20", "fightl"=>"20", "waterl"=>"20", "electricl"=>"20", "freezel"=>"20"}, "commit"=>"Update Tokimon", "id"=>"18"}
+  [1m[36mTokimon Load (4.8ms)[0m  [1m[34mSELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT $2[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 5.4ms)
+
+
+  
+NoMethodError (undefined method `update_toal' for #<Tokimon:0x007fd0cf10e238>
+Did you mean?  update_total):
+  
+app/controllers/tokimons_controller.rb:47:in `block in update'
+app/controllers/tokimons_controller.rb:46:in `update'
+  Rendering /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (21.0ms)
+  Rendering /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.2ms)
+  Rendering /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /Users/Afke/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (194.7ms)
+Started GET "/tokimons/18" for 127.0.0.1 at 2016-10-14 20:46:50 -0700
+Processing by TokimonsController#show as HTML
+  Parameters: {"id"=>"18"}
+  [1m[36mTokimon Load (0.3ms)[0m  [1m[34mSELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT $2[0m  [["id", 18], ["LIMIT", 1]]
+  Rendering tokimons/show.html.erb within layouts/application
+  Rendered tokimons/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 70ms (Views: 38.9ms | ActiveRecord: 6.9ms)
+
+
+Started GET "/tokimons/18/edit" for 127.0.0.1 at 2016-10-14 20:46:51 -0700
+Processing by TokimonsController#edit as HTML
+  Parameters: {"id"=>"18"}
+  [1m[36mTokimon Load (0.6ms)[0m  [1m[34mSELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT $2[0m  [["id", 18], ["LIMIT", 1]]
+  Rendering tokimons/edit.html.erb within layouts/application
+  [1m[36mTrainer Load (0.7ms)[0m  [1m[34mSELECT "trainers".* FROM "trainers"[0m
+  Rendered tokimons/_form.html.erb (40.5ms)
+  Rendered tokimons/edit.html.erb within layouts/application (43.3ms)
+Completed 200 OK in 89ms (Views: 72.7ms | ActiveRecord: 10.5ms)
+
+
+Started PATCH "/tokimons/18" for 127.0.0.1 at 2016-10-14 20:46:53 -0700
+Processing by TokimonsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5L0CwZpQvcSHHkUaI77aLzDV4RLUsHjSRp6l4JDar/SkS43fnNzf4pu1EP2eh8KE51K3WpgctArZFvcTaOWVbA==", "tokimon"=>{"tname"=>"bob", "trainer_id"=>"1", "weight"=>"20", "height"=>"20", "flyl"=>"20", "fightl"=>"20", "waterl"=>"20", "electricl"=>"20", "freezel"=>"20"}, "commit"=>"Update Tokimon", "id"=>"18"}
+  [1m[36mTokimon Load (1.3ms)[0m  [1m[34mSELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT $2[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[35m (1.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTrainer Load (0.5ms)[0m  [1m[34mSELECT  "trainers".* FROM "trainers" WHERE "trainers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (1.5ms)[0m  [1m[33mUPDATE "tokimons" SET "total" = $1, "updated_at" = $2 WHERE "tokimons"."id" = $3[0m  [["total", 100], ["updated_at", 2016-10-15 03:46:53 UTC], ["id", 18]]
+  [1m[35m (4.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "tokimons" WHERE "tokimons"."trainer_id" = $1[0m  [["trainer_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "tokimons" WHERE "tokimons"."trainer_id" = $1[0m  [["trainer_id", 1]]
+Redirected to http://localhost:5000/tokimons/18
+Completed 302 Found in 30ms (ActiveRecord: 10.1ms)
+
+
+Started GET "/tokimons/18" for 127.0.0.1 at 2016-10-14 20:46:53 -0700
+Processing by TokimonsController#show as HTML
+  Parameters: {"id"=>"18"}
+  [1m[36mTokimon Load (0.9ms)[0m  [1m[34mSELECT  "tokimons".* FROM "tokimons" WHERE "tokimons"."id" = $1 LIMIT $2[0m  [["id", 18], ["LIMIT", 1]]
+  Rendering tokimons/show.html.erb within layouts/application
+  Rendered tokimons/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 46ms (Views: 41.0ms | ActiveRecord: 0.9ms)
+
+
