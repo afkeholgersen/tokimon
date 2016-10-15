@@ -11,9 +11,52 @@
 </p>
 
 <p>
-  <strong>Tokimon:</strong>
+  <strong>Number of Tokemons:</strong>
   <%= @trainer.tokimon_id %>
 </p>
+
+<p>
+  <strong>Tokemons that belong to this trainer: </strong>
+</p>
+
+<table>
+  <col width="10">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Trainer</th>
+      <th>Weight</th>
+      <th>Height</th>
+      <th>Fly</th>
+      <th>Fight</th>
+      <th>Water</th>
+      <th>Electric</th>
+      <th>Freeze</th>
+      <th>Total</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% Tokimon.all.where(trainer_id: @trainer.id).each do |tokimon| %>
+      <tr>
+        <td><%= tokimon.tname %></td>
+        <td><%= link_to tokimon.trainer_id, trainer_path(tokimon.trainer_id)%></td>
+        <td><%= tokimon.weight %></td>
+        <td><%= tokimon.height %></td>
+        <td><%= tokimon.flyl %></td>
+        <td><%= tokimon.fightl %></td>
+        <td><%= tokimon.waterl %></td>
+        <td><%= tokimon.electricl %></td>
+        <td><%= tokimon.freezel %></td>
+        <td><%= tokimon.total %></td>
+        <td><%= link_to 'Show', tokimon %></td>
+        <td><%= link_to 'Edit', edit_tokimon_path(tokimon) %></td>
+        <td><%= link_to 'Destroy', tokimon, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
 
 <%= link_to 'Edit', edit_trainer_path(@trainer) %> |
 <%= link_to 'Back', trainers_path %>

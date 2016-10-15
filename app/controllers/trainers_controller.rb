@@ -28,6 +28,7 @@ class TrainersController < ApplicationController
 
     respond_to do |format|
       if @trainer.save
+        @trainer.update_tokimons
         format.html { redirect_to @trainer, notice: 'Trainer was successfully created.' }
         format.json { render :show, status: :created, location: @trainer }
       else
@@ -42,6 +43,7 @@ class TrainersController < ApplicationController
   def update
     respond_to do |format|
       if @trainer.update(trainer_params)
+        @trainer.update_tokimons
         format.html { redirect_to @trainer, notice: 'Trainer was successfully updated.' }
         format.json { render :show, status: :ok, location: @trainer }
       else

@@ -10,6 +10,7 @@ class TokimonsController < ApplicationController
   # GET /tokimons/1
   # GET /tokimons/1.json
   def show
+    @tokimons = Tokimon.all
   end
 
   # GET /tokimons/new
@@ -31,9 +32,7 @@ class TokimonsController < ApplicationController
         @tokimon.trainer.update_tokimons
         format.html { redirect_to @tokimon, notice: 'Tokimon was successfully created.' }
         format.json { render :show, status: :created, location: @tokimon }
-      #  @trainer = Trainer.find(@tokimon.trainer_id)
-    #    @trainer.update_tokimons
-
+        
       else
         format.html { render :new }
         format.json { render json: @tokimon.errors, status: :unprocessable_entity }
@@ -49,8 +48,7 @@ class TokimonsController < ApplicationController
         @tokimon.trainer.update_tokimons
         format.html { redirect_to @tokimon, notice: 'Tokimon was successfully updated.' }
         format.json { render :show, status: :ok, location: @tokimon }
-        #@trainer = Trainer.find(@tokimon.trainer_id)
-        #@trainer.update_tokimons
+
 
       else
         format.html { render :edit }
